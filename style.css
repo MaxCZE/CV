@@ -1,0 +1,158 @@
+/*  
+/////////////////////////////////////////////////////
+////////      GENERAL
+///////////////////////////////////////////////////// 
+*/
+body{
+    background-color: #191d30;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+////////////////////////////////////////////////
+////////    HEADER
+////////////////////////////////////////////////
+*/
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+header>div>img{
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+
+header>div{
+    display: flex;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+header>div>div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header>div>div>div>p{
+    color: white;
+}
+
+.IDENTITE{
+    font-size: 1.5rem;
+}
+
+/*
+////////////////////////////////////////////////
+////////    NAV
+////////////////////////////////////////////////
+*/
+
+nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(37, 37, 37);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav>ul>li{
+    list-style-type: none;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 25%;
+    text-align: center;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+nav>ul>li:hover {
+    background-color: white;
+}
+
+/*
+////////////////////////////////////////////////
+////////    MAIN
+////////////////////////////////////////////////
+*/
+
+main{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 1,5rem;
+    max-height: 1.5rem;
+}
+
+section>p{
+    color: whitesmoke;
+}
+
+section>div>ul>li{
+    color: whitesmoke;
+}
+
+section>div>ul>li>ul>li{
+    display: none;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.PROFIL{
+    background-color: rgb(37, 37, 37);
+    border-right: 2px solid black;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 25%;
+    padding: 10px;
+}
+
+.INFORMATIONS{
+    padding: 10px;
+    max-width: 75%;
+}
+
+/*
+////////////////////////////////////////////////
+////////    LES ANIMATIONS 
+////////////////////////////////////////////////
+*/
+
+.STUDENT:hover .student{
+    display: block;
+}
+
+.JOB:hover .job{
+    display: block;
+}
+
+.XPPRO:hover .xppro{
+    display: block;
+}
+
+.ENGAGEMENTCYT:hover .engagementcyt{
+    display: block;
+}
+
+.INVESTISSEMENTECO:hover .investissementeco{
+    display: block;
+}
